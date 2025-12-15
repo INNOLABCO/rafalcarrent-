@@ -1,0 +1,496 @@
+
+                <div class="vehicle-card" data-category="suv">
+                    <div class="vehicle-badge popular">Popular</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=800&q=80" alt="Hyundai Tucson 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Hyundai Tucson</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 4 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">500 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <a href="car-hyundai-tucson.html" class="btn-rent">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="economy">
+                    <div class="vehicle-badge budget">Budget</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&q=80" alt="Dacia Logan 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Dacia Logan</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Manual • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 3 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">270 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <a href="car-dacia-logan.html" class="btn-rent">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="economy">
+                    <div class="vehicle-badge budget">Budget</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800&q=80" alt="Peugeot 208 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Peugeot 208</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic / Manual • Diesel / Hybrid</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 2 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">300 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <a href="car-peugeot-208.html" class="btn-rent">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="economy">
+                    <div class="vehicle-badge budget">Budget</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80" alt="Opel Corsa 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Opel Corsa</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Manual • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 2 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">300 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <a href="car-opel-corsa.html" class="btn-rent">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="van">
+                    
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1527786356703-4b100091cd2c?w=800&q=80" alt="Renault Express 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Renault Express</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Manual • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 2 Seats</span>
+                            <span>🎒 5 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">340 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <a href="car-renault-express.html" class="btn-rent">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="suv">
+                    <div class="vehicle-badge popular">Popular</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80" alt="Skoda Karoq 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Skoda Karoq</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 4 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">500 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <a href="car-skoda-karoq.html" class="btn-rent">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="luxury">
+                    <div class="vehicle-badge luxury">Luxury</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=800&q=80" alt="Volkswagen Touareg 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Volkswagen Touareg</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 5 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">900 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <a href="car-volkswagen-touareg.html" class="btn-rent">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="suv">
+                    
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=800&q=80" alt="Cupra Formentor 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Cupra Formentor</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 4 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">500 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <a href="car-cupra-formentor.html" class="btn-rent">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="economy">
+                    <div class="vehicle-badge budget">Budget</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800&q=80" alt="Renault Clio 5 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Renault Clio 5</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Manual • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 3 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">300 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <a href="car-renault-clio.html" class="btn-rent">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="economy">
+                    <div class="vehicle-badge budget">Budget</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&q=80" alt="Hyundai Accent 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Hyundai Accent</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel / Gasoline</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 3 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">300 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <a href="car-hyundai-accent.html" class="btn-rent">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="luxury">
+                    <div class="vehicle-badge luxury">Luxury</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=800&q=80" alt="Mercedes S-Class 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Mercedes S-Class</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 3 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">4000 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <a href="car-mercedes-s-class.html" class="btn-rent">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="luxury">
+                    <div class="vehicle-badge luxury">Luxury</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80" alt="Mercedes CLA 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Mercedes CLA</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 3 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">1400 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <a href="car-mercedes-cla.html" class="btn-rent">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="luxury">
+                    <div class="vehicle-badge luxury">Luxury</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=800&q=80" alt="Mercedes C-Class 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Mercedes C-Class</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 3 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">1500 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <a href="car-mercedes-c-class.html" class="btn-rent">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="luxury">
+                    <div class="vehicle-badge luxury">Luxury</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=800&q=80" alt="Range Rover Sport 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Range Rover Sport</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 5 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">3500 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <a href="car-range-rover-sport.html" class="btn-rent">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="luxury">
+                    <div class="vehicle-badge luxury">Luxury</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=800&q=80" alt="Range Rover Velar 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Range Rover Velar</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 4 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">1500 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <a href="car-range-rover-velar.html" class="btn-rent">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="luxury">
+                    <div class="vehicle-badge luxury">Luxury</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=800&q=80" alt="Range Rover Evoque 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Range Rover Evoque</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 4 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">1200 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <a href="car-range-rover-evoque.html" class="btn-rent">View Details</a>
+                        </div>
+                    </div>
+                </div>

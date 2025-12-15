@@ -1,0 +1,155 @@
+
+                <div class="vehicle-card" data-category="economy">
+                    <div class="vehicle-badge budget">Budget</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&q=80" alt="Dacia Logan 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Dacia Logan</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Manual • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 3 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">270 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <button class="btn-rent">Rent Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="economy">
+                    <div class="vehicle-badge budget">Budget</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800&q=80" alt="Peugeot 208 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Peugeot 208</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic / Manual • Diesel / Hybrid</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 2 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">300 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <button class="btn-rent">Rent Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="economy">
+                    <div class="vehicle-badge budget">Budget</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80" alt="Opel Corsa 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Opel Corsa</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Manual • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 2 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">300 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <button class="btn-rent">Rent Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="economy">
+                    <div class="vehicle-badge budget">Budget</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800&q=80" alt="Renault Clio 5 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Renault Clio 5</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Manual • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 3 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">300 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <button class="btn-rent">Rent Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="economy">
+                    <div class="vehicle-badge budget">Budget</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&q=80" alt="Hyundai Accent 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Hyundai Accent</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel / Gasoline</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 3 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">300 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <button class="btn-rent">Rent Now</button>
+                        </div>
+                    </div>
+                </div>

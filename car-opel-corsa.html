@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opel Corsa 2024 - Rent Now | Rafal Car</title>
+    <meta name="description" content="Rent Opel Corsa 2024 in Morocco. 300 MAD/day. Book now with Rafal Car - Premium car rental service.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        .car-detail-page {
+            padding-top: 100px;
+            background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%);
+        }
+        
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 24px;
+            transition: all 0.3s;
+        }
+        
+        .back-button:hover {
+            gap: 12px;
+        }
+        
+        .car-detail-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+        
+        .car-image-section {
+            background: white;
+            border-radius: 24px;
+            padding: 24px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        }
+        
+        .car-main-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .car-badge-large {
+            display: inline-block;
+            padding: 8px 16px;
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            color: white;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+        
+        .car-info-section {
+            background: white;
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        }
+        
+        .car-title {
+            font-size: 42px;
+            font-weight: 900;
+            color: #0f172a;
+            margin-bottom: 12px;
+        }
+        
+        .car-subtitle {
+            font-size: 18px;
+            color: #64748b;
+            margin-bottom: 24px;
+        }
+        
+        .price-box {
+            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+            border: 2px solid #3b82f6;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 32px;
+        }
+        
+        .price-large {
+            font-size: 48px;
+            font-weight: 900;
+            color: #1e40af;
+            margin-bottom: 8px;
+        }
+        
+        .price-label {
+            color: #1e3a8a;
+            font-size: 16px;
+        }
+        
+        .deposit-info {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid #93c5fd;
+            color: #1e40af;
+            font-size: 14px;
+        }
+        
+        .specs-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        
+        .spec-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px;
+            background: #f8fafc;
+            border-radius: 12px;
+        }
+        
+        .spec-icon {
+            font-size: 24px;
+        }
+        
+        .spec-label {
+            font-size: 13px;
+            color: #64748b;
+            display: block;
+        }
+        
+        .spec-value {
+            font-size: 16px;
+            font-weight: 600;
+            color: #0f172a;
+        }
+        
+        .features-section {
+            background: white;
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            margin-bottom: 40px;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+        
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px;
+            background: #f8fafc;
+            border-radius: 8px;
+        }
+        
+        .feature-check {
+            color: #10b981;
+            font-size: 20px;
+        }
+        
+        .booking-section {
+            background: white;
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        }
+        
+        .booking-form {
+            display: grid;
+            gap: 24px;
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+        
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form-label {
+            font-weight: 600;
+            color: #0f172a;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        
+        .form-input {
+            padding: 14px 16px;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-size: 15px;
+            transition: all 0.3s;
+        }
+        
+        .form-input:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+        }
+        
+        .file-upload {
+            border: 2px dashed #cbd5e1;
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .file-upload:hover {
+            border-color: #3b82f6;
+            background: #eff6ff;
+        }
+        
+        .file-upload-icon {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+        
+        .file-upload input {
+            display: none;
+        }
+        
+        .submit-button {
+            background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+            color: white;
+            padding: 18px 32px;
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .submit-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px rgba(37, 99, 235, 0.4);
+        }
+        
+        @media (max-width: 768px) {
+            .car-detail-grid {
+                grid-template-columns: 1fr;
+            }
+            .specs-grid {
+                grid-template-columns: 1fr;
+            }
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>RAFAL CAR</h1>
+                    <span class="logo-tagline">Premium Rentals</span>
+                </div>
+                
+                <div class="nav-actions">
+                    <a href="index.html" class="btn-secondary">← Back to Fleet</a>
+                    <a href="https://wa.me/212662186949?text=I want to rent Opel Corsa" class="btn-primary">💬 WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="car-detail-page">
+        <div class="container">
+            <a href="index.html" class="back-button">← Back to All Cars</a>
+            
+            <div class="car-detail-grid">
+                <!-- Left: Car Image -->
+                <div class="car-image-section">
+                    <span class="car-badge-large">2024 Model</span>
+                    <img src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=1200&q=80" alt="Opel Corsa 2024" class="car-main-image">
+                    
+                    <div class="specs-grid">
+                        <div class="spec-item">
+                            <div class="spec-icon">🚗</div>
+                            <div>
+                                <span class="spec-label">Transmission</span>
+                                <span class="spec-value">Automatic</span>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-icon">⚡</div>
+                            <div>
+                                <span class="spec-label">Engine</span>
+                                <span class="spec-value">Diesel</span>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-icon">👥</div>
+                            <div>
+                                <span class="spec-label">Seats</span>
+                                <span class="spec-value">5 Passengers</span>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-icon">🎒</div>
+                            <div>
+                                <span class="spec-label">Luggage</span>
+                                <span class="spec-value">4 Bags</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Car Info -->
+                <div class="car-info-section">
+                    <h1 class="car-title">Opel Corsa</h1>
+                    <p class="car-subtitle">2024 Model • Suv Class</p>
+                    
+                    <div class="price-box">
+                        <div class="price-large">300 MAD<span style="font-size: 24px; font-weight: 600;">/day</span></div>
+                        <div class="price-label">✓ Unlimited Mileage • ✓ Insurance Included</div>
+                        <div class="deposit-info">
+                            💳 Security Deposit: 5,000 MAD (Refundable)
+                        </div>
+                    </div>
+                    
+                    <a href="#booking" class="btn-primary-large" style="width: 100%; text-align: center; display: block; margin-bottom: 24px;">Book This Car Now →</a>
+                    
+                    <p style="color: #64748b; line-height: 1.8;">
+                        Experience the perfect blend of comfort and performance with our 2024 Opel Corsa. This suv vehicle is ideal for your Moroccan adventure.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Features Section -->
+            <div class="features-section">
+                <h2 style="font-size: 32px; font-weight: 900; margin-bottom: 24px;">Included Features</h2>
+                <div class="features-grid">
+                    <div class="feature-item"><span class="feature-check">✓</span><span>Air Conditioning</span></div><div class="feature-item"><span class="feature-check">✓</span><span>GPS Navigation</span></div><div class="feature-item"><span class="feature-check">✓</span><span>Bluetooth & USB</span></div><div class="feature-item"><span class="feature-check">✓</span><span>Parking Sensors</span></div><div class="feature-item"><span class="feature-check">✓</span><span>Rear Camera</span></div><div class="feature-item"><span class="feature-check">✓</span><span>Cruise Control</span></div><div class="feature-item"><span class="feature-check">✓</span><span>Leather Seats</span></div><div class="feature-item"><span class="feature-check">✓</span><span>Airbags (6+)</span></div><div class="feature-item"><span class="feature-check">✓</span><span>All-Wheel Drive</span></div><div class="feature-item"><span class="feature-check">✓</span><span>Hill Assist</span></div>
+                </div>
+            </div>
+
+            <!-- Booking Form -->
+            <div class="booking-section" id="booking">
+                <h2 style="font-size: 32px; font-weight: 900; margin-bottom: 12px;">Book Your Opel Corsa</h2>
+                <p style="color: #64748b; margin-bottom: 32px;">Fill in the form below and we'll confirm your booking within 2 hours</p>
+                
+                <form class="booking-form" id="bookingForm">
+                    <input type="hidden" name="car_name" value="Opel Corsa">
+                    <input type="hidden" name="car_price" value="300">
+                    <input type="hidden" name="car_deposit" value="5000">
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label">Full Name *</label>
+                            <input type="text" class="form-input" name="full_name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email Address *</label>
+                            <input type="email" class="form-input" name="email" required placeholder="john@example.com">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label">Phone Number *</label>
+                            <input type="tel" class="form-input" name="phone" required placeholder="+212 600 000 000">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">WhatsApp Number</label>
+                            <input type="tel" class="form-input" name="whatsapp" placeholder="+212 600 000 000">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label">Pickup Date *</label>
+                            <input type="date" class="form-input" name="pickup_date" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Return Date *</label>
+                            <input type="date" class="form-input" name="return_date" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label">Pickup Location *</label>
+                            <select class="form-input" name="pickup_location" required>
+                                <option value="">Select location</option>
+                                <option>Casablanca - City Center</option>
+                                <option>Casablanca - Airport</option>
+                                <option>Marrakech - City Center</option>
+                                <option>Marrakech - Airport</option>
+                                <option>Rabat - City Center</option>
+                                <option>Rabat - Airport</option>
+                                <option>Fes - City Center</option>
+                                <option>Tangier - City Center</option>
+                                <option>Tangier - Airport</option>
+                                <option>Agadir - City Center</option>
+                                <option>Agadir - Airport</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Return Location *</label>
+                            <select class="form-input" name="return_location" required>
+                                <option value="">Select location</option>
+                                <option>Same as pickup</option>
+                                <option>Casablanca - City Center</option>
+                                <option>Casablanca - Airport</option>
+                                <option>Marrakech - City Center</option>
+                                <option>Marrakech - Airport</option>
+                                <option>Rabat - City Center</option>
+                                <option>Rabat - Airport</option>
+                                <option>Fes - City Center</option>
+                                <option>Tangier - City Center</option>
+                                <option>Tangier - Airport</option>
+                                <option>Agadir - City Center</option>
+                                <option>Agadir - Airport</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">ID/Passport Upload *</label>
+                        <div class="file-upload" onclick="document.getElementById('id_upload').click()">
+                            <div class="file-upload-icon">📄</div>
+                            <div style="font-weight: 600; margin-bottom: 4px;">Click to upload your ID or Passport</div>
+                            <div style="font-size: 13px; color: #64748b;">PDF, JPG, PNG up to 5MB</div>
+                            <input type="file" id="id_upload" name="id_document" accept=".pdf,.jpg,.jpeg,.png" required>
+                        </div>
+                        <span id="id_filename" style="display: block; margin-top: 8px; color: #10b981; font-size: 14px;"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Driver's License Upload *</label>
+                        <div class="file-upload" onclick="document.getElementById('license_upload').click()">
+                            <div class="file-upload-icon">🪪</div>
+                            <div style="font-weight: 600; margin-bottom: 4px;">Click to upload your Driver's License</div>
+                            <div style="font-size: 13px; color: #64748b;">PDF, JPG, PNG up to 5MB</div>
+                            <input type="file" id="license_upload" name="license_document" accept=".pdf,.jpg,.jpeg,.png" required>
+                        </div>
+                        <span id="license_filename" style="display: block; margin-top: 8px; color: #10b981; font-size: 14px;"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Additional Notes</label>
+                        <textarea class="form-input" name="notes" rows="4" placeholder="Any special requests or questions?"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">Complete Booking →</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // File upload handlers
+        document.getElementById('id_upload').addEventListener('change', function(e) {
+            if (e.target.files[0]) {
+                document.getElementById('id_filename').textContent = '✓ ' + e.target.files[0].name;
+            }
+        });
+        
+        document.getElementById('license_upload').addEventListener('change', function(e) {
+            if (e.target.files[0]) {
+                document.getElementById('license_filename').textContent = '✓ ' + e.target.files[0].name;
+            }
+        });
+        
+        // Form submission
+        document.getElementById('bookingForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            // Generate confirmation number
+            const confirmationNumber = 'RC' + Date.now().toString().slice(-8);
+            
+            // Get form data
+            const formData = new FormData(this);
+            formData.append('confirmation_number', confirmationNumber);
+            
+            // Calculate rental days
+            const pickup = new Date(formData.get('pickup_date'));
+            const returnDate = new Date(formData.get('return_date'));
+            const days = Math.ceil((returnDate - pickup) / (1000 * 60 * 60 * 24));
+            const totalPrice = days * 500;
+            
+            // Store booking details
+            localStorage.setItem('lastBooking', JSON.stringify({
+                confirmation: confirmationNumber,
+                car: 'Opel Corsa',
+                name: formData.get('full_name'),
+                email: formData.get('email'),
+                phone: formData.get('phone'),
+                pickup_date: formData.get('pickup_date'),
+                return_date: formData.get('return_date'),
+                pickup_location: formData.get('pickup_location'),
+                days: days,
+                daily_rate: 500,
+                total_price: totalPrice,
+                deposit: 5000
+            }));
+            
+            // Submit to backend (FormSubmit.co - free service)
+            try {
+                const response = await fetch('https://formsubmit.co/ajax/rafal.carmed5@gmail.com', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        _subject: `New Booking: ${confirmationNumber} - Opel Corsa`,
+                        confirmation: confirmationNumber,
+                        car: 'Opel Corsa',
+                        name: formData.get('full_name'),
+                        email: formData.get('email'),
+                        phone: formData.get('phone'),
+                        whatsapp: formData.get('whatsapp'),
+                        pickup_date: formData.get('pickup_date'),
+                        return_date: formData.get('return_date'),
+                        pickup_location: formData.get('pickup_location'),
+                        return_location: formData.get('return_location'),
+                        days: days,
+                        total_price: `${totalPrice} MAD`,
+                        deposit: `5000 MAD`,
+                        notes: formData.get('notes'),
+                        _template: 'table'
+                    })
+                });
+                
+                if (response.ok) {
+                    // Redirect to thank you page
+                    window.location.href = 'booking-confirmed.html';
+                } else {
+                    throw new Error('Submission failed');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                // Fallback to WhatsApp
+                const message = `New Booking Request\n\nConfirmation: ${confirmationNumber}\nCar: Opel Corsa\nName: ${formData.get('full_name')}\nPhone: ${formData.get('phone')}\nPickup: ${formData.get('pickup_date')}\nReturn: ${formData.get('return_date')}\nLocation: ${formData.get('pickup_location')}\nDays: ${days}\nTotal: ${totalPrice} MAD`;
+                window.open(`https://wa.me/212662186949?text=${encodeURIComponent(message)}`, '_blank');
+                window.location.href = 'booking-confirmed.html';
+            }
+        });
+        
+        // Set minimum dates
+        const today = new Date().toISOString().split('T')[0];
+        document.querySelector('[name="pickup_date"]').min = today;
+        document.querySelector('[name="return_date"]').min = today;
+        
+        // Update return date min when pickup changes
+        document.querySelector('[name="pickup_date"]').addEventListener('change', function() {
+            document.querySelector('[name="return_date"]').min = this.value;
+        });
+    </script>
+</body>
+</html>

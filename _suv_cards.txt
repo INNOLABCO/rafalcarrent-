@@ -1,0 +1,93 @@
+
+                <div class="vehicle-card" data-category="suv">
+                    <div class="vehicle-badge popular">Popular</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=800&q=80" alt="Hyundai Tucson 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Hyundai Tucson</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 4 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">500 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <button class="btn-rent">Rent Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="suv">
+                    <div class="vehicle-badge popular">Popular</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80" alt="Skoda Karoq 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Skoda Karoq</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 4 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">500 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <button class="btn-rent">Rent Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="suv">
+                    
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=800&q=80" alt="Cupra Formentor 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Cupra Formentor</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 4 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">500 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <button class="btn-rent">Rent Now</button>
+                        </div>
+                    </div>
+                </div>

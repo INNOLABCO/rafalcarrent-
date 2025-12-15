@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Confirmed - Rafal Car</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        .confirmation-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%);
+            padding: 40px 20px;
+        }
+        .confirmation-card {
+            max-width: 700px;
+            background: white;
+            border-radius: 24px;
+            padding: 60px 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+        }
+        .success-animation {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            margin: 0 auto 30px;
+            animation: scaleIn 0.5s ease-out;
+        }
+        @keyframes scaleIn {
+            from { transform: scale(0); }
+            to { transform: scale(1); }
+        }
+        h1 {
+            font-size: 42px;
+            font-weight: 900;
+            margin-bottom: 16px;
+            color: #0f172a;
+            text-align: center;
+        }
+        .subtitle {
+            font-size: 18px;
+            color: #64748b;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .booking-details {
+            background: #f8fafc;
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 32px;
+        }
+        .confirmation-number {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+            border: 2px solid #3b82f6;
+            border-radius: 12px;
+            margin-bottom: 24px;
+        }
+        .confirmation-label {
+            font-size: 13px;
+            color: #1e40af;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .confirmation-code {
+            font-size: 32px;
+            font-weight: 900;
+            color: #1e3a8a;
+            letter-spacing: 2px;
+            margin-top: 8px;
+        }
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 16px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .detail-row:last-child {
+            border-bottom: none;
+        }
+        .detail-label {
+            color: #64748b;
+            font-weight: 500;
+        }
+        .detail-value {
+            color: #0f172a;
+            font-weight: 600;
+            text-align: right;
+        }
+        .total-row {
+            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 16px;
+        }
+        .total-row .detail-label {
+            color: #1e40af;
+            font-size: 18px;
+        }
+        .total-row .detail-value {
+            color: #1e3a8a;
+            font-size: 24px;
+            font-weight: 900;
+        }
+        .next-steps {
+            background: #fffbeb;
+            border: 2px solid #fbbf24;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 32px;
+        }
+        .next-steps h3 {
+            color: #92400e;
+            margin-bottom: 16px;
+            font-size: 18px;
+        }
+        .next-steps ul {
+            list-style: none;
+            padding: 0;
+        }
+        .next-steps li {
+            padding: 8px 0;
+            color: #78350f;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+        .step-number {
+            background: #fbbf24;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        .action-buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+        .btn {
+            padding: 16px 24px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 16px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+            color: white;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
+        }
+        .btn-secondary {
+            background: #10b981;
+            color: white;
+        }
+        .btn-secondary:hover {
+            background: #059669;
+            transform: translateY(-2px);
+        }
+        .contact-box {
+            text-align: center;
+            margin-top: 32px;
+            padding: 24px;
+            background: #f8fafc;
+            border-radius: 12px;
+        }
+        .contact-box p {
+            color: #64748b;
+            margin-bottom: 12px;
+        }
+        .contact-box a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="confirmation-page">
+        <div class="confirmation-card">
+            <div class="success-animation">✓</div>
+            <h1>Booking Confirmed!</h1>
+            <p class="subtitle">Your reservation has been successfully submitted</p>
+            
+            <div class="confirmation-number" id="confirmationBox">
+                <div class="confirmation-label">Your Confirmation Number</div>
+                <div class="confirmation-code" id="confirmationNumber">Loading...</div>
+            </div>
+            
+            <div class="booking-details" id="bookingDetails">
+                <!-- Details loaded by JavaScript -->
+            </div>
+            
+            <div class="next-steps">
+                <h3>📋 Next Steps:</h3>
+                <ul>
+                    <li>
+                        <span class="step-number">1</span>
+                        <span>Check your email for booking confirmation and payment instructions</span>
+                    </li>
+                    <li>
+                        <span class="step-number">2</span>
+                        <span>Our team will contact you within 2 hours to verify details</span>
+                    </li>
+                    <li>
+                        <span class="step-number">3</span>
+                        <span>Prepare your ID/Passport and driver's license for pickup</span>
+                    </li>
+                    <li>
+                        <span class="step-number">4</span>
+                        <span>Arrive at pickup location on time with required documents</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="action-buttons">
+                <a href="index.html" class="btn btn-primary">
+                    🏠 Back to Home
+                </a>
+                <button onclick="shareWhatsApp()" class="btn btn-secondary">
+                    💬 Contact Us
+                </button>
+            </div>
+            
+            <div class="contact-box">
+                <p><strong>Need immediate assistance?</strong></p>
+                <p>
+                    📞 Call: <a href="tel:+212662186949">+212 662 186 949</a><br>
+                    ✉️ Email: <a href="/cdn-cgi/l/email-protection#2557444344490b46445748404110654248444c490b464a48"><span class="__cf_email__" data-cfemail="9deffcfbfcf1b3fefceff0f8f9a8ddfaf0fcf4f1b3fef2f0">[email&#160;protected]</span></a>
+                </p>
+                <p style="font-size: 13px; color: #94a3b8; margin-top: 16px;">
+                    Save this confirmation number for your records
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // Load booking details from localStorage
+        const bookingData = JSON.parse(localStorage.getItem('lastBooking') || '{}');
+        
+        if (bookingData.confirmation) {
+            document.getElementById('confirmationNumber').textContent = bookingData.confirmation;
+            
+            const detailsHTML = `
+                <div class="detail-row">
+                    <span class="detail-label">Vehicle</span>
+                    <span class="detail-value">${bookingData.car}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Customer Name</span>
+                    <span class="detail-value">${bookingData.name}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Email</span>
+                    <span class="detail-value">${bookingData.email}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Phone</span>
+                    <span class="detail-value">${bookingData.phone}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Pickup Date</span>
+                    <span class="detail-value">${new Date(bookingData.pickup_date).toLocaleDateString('en-US', {weekday: 'short', year: 'numeric', month: 'short', day: 'numeric'})}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Return Date</span>
+                    <span class="detail-value">${new Date(bookingData.return_date).toLocaleDateString('en-US', {weekday: 'short', year: 'numeric', month: 'short', day: 'numeric'})}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Pickup Location</span>
+                    <span class="detail-value">${bookingData.pickup_location}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Rental Duration</span>
+                    <span class="detail-value">${bookingData.days} day${bookingData.days > 1 ? 's' : ''}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Daily Rate</span>
+                    <span class="detail-value">${bookingData.daily_rate} MAD/day</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Security Deposit</span>
+                    <span class="detail-value">${bookingData.deposit.toLocaleString()} MAD</span>
+                </div>
+                <div class="total-row detail-row">
+                    <span class="detail-label">Total Rental Cost</span>
+                    <span class="detail-value">${bookingData.total_price.toLocaleString()} MAD</span>
+                </div>
+            `;
+            
+            document.getElementById('bookingDetails').innerHTML = detailsHTML;
+        } else {
+            document.getElementById('confirmationNumber').textContent = 'RC' + Date.now().toString().slice(-8);
+            document.getElementById('bookingDetails').innerHTML = '<p style="text-align: center; color: #64748b;">Booking details will be sent to your email</p>';
+        }
+        
+        function shareWhatsApp() {
+            const message = `Hi! My booking confirmation number is: ${bookingData.confirmation}. I have a question about my reservation for ${bookingData.car}.`;
+       

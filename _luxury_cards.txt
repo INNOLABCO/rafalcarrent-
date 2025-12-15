@@ -1,0 +1,217 @@
+
+                <div class="vehicle-card" data-category="luxury">
+                    <div class="vehicle-badge luxury">Luxury</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=800&q=80" alt="Volkswagen Touareg 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Volkswagen Touareg</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 5 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">900 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <button class="btn-rent">Rent Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="luxury">
+                    <div class="vehicle-badge luxury">Luxury</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=800&q=80" alt="Mercedes S-Class 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Mercedes S-Class</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 3 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">4000 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <button class="btn-rent">Rent Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="luxury">
+                    <div class="vehicle-badge luxury">Luxury</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80" alt="Mercedes CLA 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Mercedes CLA</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 3 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">1400 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <button class="btn-rent">Rent Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="luxury">
+                    <div class="vehicle-badge luxury">Luxury</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=800&q=80" alt="Mercedes C-Class 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Mercedes C-Class</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 3 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">1500 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <button class="btn-rent">Rent Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="luxury">
+                    <div class="vehicle-badge luxury">Luxury</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=800&q=80" alt="Range Rover Sport 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Range Rover Sport</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 5 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">3500 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <button class="btn-rent">Rent Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="luxury">
+                    <div class="vehicle-badge luxury">Luxury</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=800&q=80" alt="Range Rover Velar 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Range Rover Velar</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 4 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">1500 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <button class="btn-rent">Rent Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card" data-category="luxury">
+                    <div class="vehicle-badge luxury">Luxury</div>
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=800&q=80" alt="Range Rover Evoque 2024">
+                    </div>
+                    <div class="vehicle-info">
+                        <div class="vehicle-header">
+                            <h3>Range Rover Evoque</h3>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8</span>
+                            </div>
+                        </div>
+                        <p class="vehicle-type">Automatic • Diesel</p>
+                        
+                        <div class="vehicle-features">
+                            <span>👥 5 Seats</span>
+                            <span>🎒 4 Bags</span>
+                            <span>❄️ AC</span>
+                        </div>
+
+                        <div class="vehicle-footer">
+                            <div class="price">
+                                <span class="price-amount">1200 MAD</span>
+                                <span class="price-period">/day</span>
+                            </div>
+                            <button class="btn-rent">Rent Now</button>
+                        </div>
+                    </div>
+                </div>
